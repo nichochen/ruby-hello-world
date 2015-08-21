@@ -2,6 +2,7 @@ require 'sinatra'
 require_relative 'config/database'
 require_relative 'models'
 
+
 set :bind, '0.0.0.0'
 set :port, 8080
 
